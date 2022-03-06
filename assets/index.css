@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  padding: 25px 0 15px;
+  width: 100%;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 0 5px 1px #212B31;
+}
+.header .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  display: block;
+  background: url("images/logo.png") no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 60px;
+}
+.header .header__menu__list {
+  display: flex;
+  list-style: none;
+  padding-right: 100px;
+}
+.header .header__menu__list li {
+  margin-left: 60px;
+}
+.header .header__menu__list li .current:after {
+  opacity: 0.8;
+  top: -1px;
+}
+.header .header__menu__list li .current:before {
+  opacity: 0.8;
+  bottom: -1px;
+}
+.header .header__menu__list li a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  position: relative;
+  color: #212B31;
+  /*/menu border animation/*/
+}
+.header .header__menu__list li a:before, .header .header__menu__list li a:after {
+  transition: 0.4s ease;
+  opacity: 0;
+  bottom: 3px;
+  left: 0;
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  background: #212B31;
+}
+.header .header__menu__list li a:after {
+  top: 3px;
+  bottom: 0;
+}
+.header .header__menu__list li a:hover::before {
+  opacity: 0.8;
+  bottom: -1px;
+}
+.header .header__menu__list li a:hover::after {
+  opacity: 0.8;
+  top: -1px;
+}
+
+/*# sourceMappingURL=index.css.map */
