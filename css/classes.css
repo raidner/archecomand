@@ -1,0 +1,62 @@
+.btn {
+  width: 222px;
+  height: 71px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn__white {
+  background: #fff;
+}
+
+.btn__white:hover svg {
+  margin-left: 20px;
+}
+
+.btn__white svg {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-left: 15px;
+}
+
+.btn__black {
+  background: #333333;
+}
+
+.btn__black:hover svg {
+  margin-left: 20px;
+}
+
+.btn__black svg {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-left: 15px;
+}
+
+.btn__slide {
+  width: 53px;
+  height: 53px;
+  background: #f9f9f9;
+  border: 1px solid #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn__slide::after {
+  content: "";
+}
+/*# sourceMappingURL=classes.css.map */
