@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: 'TT Hoves';
   src: local("TT Hoves"), url(/assets/fonts/TTHoves-Bold.woff2);
@@ -228,3 +229,8 @@
   width: 10%;
 }
 /*# sourceMappingURL=index.css.map */
+=======
+p{
+    font-family: 'TT Hoves', sans-serif;
+}
+>>>>>>> a5a64be38890d0457b1712904d23bcf03bfd7cb5
